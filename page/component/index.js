@@ -9,5 +9,11 @@ Page({
     autoplay: false,
     interval: 3000,
     duration: 800,
+    ewm:false
+  },
+  showewm(){
+    this.setData({
+      ewm:true
+    })
   }
 })

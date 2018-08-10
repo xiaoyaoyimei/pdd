@@ -1,0 +1,9 @@
+/* pages/aboutUs/aboutUs.wxss */
+.about{
+  padding: 0 20rpx;
+}
+.about text{
+  text-indent: 40rpx;
+  display: inline-block;
+  line-height: 56rpx;
+}

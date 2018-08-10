@@ -213,3 +213,17 @@ checkbox, radio{
 .section__ctn{
 
 }
+.flex-wrp {
+  display: flex;
+}
+
+.flex-item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.item-more {
+  display: inline-block;
+  width: 40rpx;
+  height: 45rpx;
+}

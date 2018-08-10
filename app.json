@@ -1,14 +1,14 @@
 {
   "pages": [
       "page/component/index",
-      "page/component/category/category",
       "page/component/cart/cart",
       "page/component/user/user",
       "page/component/address/address",
       "page/component/orders/orders",
       "page/component/details/details",
       "page/component/list/list",
-      "page/component/search/search"
+      "page/component/search/search",
+      "page/component/aboutUs/aboutUs"
   ],
   "window": {
     "navigationBarTextStyle": "#ffffff",
@@ -27,16 +27,11 @@
       "iconPath": "image/12.png",
       "selectedIconPath": "image/11.png",
       "text": "主页"
-    }, {
-      "pagePath": "page/component/category/category",
-      "iconPath": "image/22.png",
-      "selectedIconPath": "image/21.png",
-      "text": "分类"
-    }, {
+    },  {
       "pagePath": "page/component/cart/cart",
       "iconPath": "image/32.png",
       "selectedIconPath": "image/31.png",
-      "text": "购物车"
+      "text": "其他事项"
     }, {
       "pagePath": "page/component/user/user",
       "iconPath": "image/42.png",

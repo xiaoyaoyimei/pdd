@@ -31,10 +31,10 @@
         </view>
     </view>
     <view class="newest">
-       <image src="/image/jx.png" mode="widthFix"> </image>
+       <image src="/image/jx.png" mode="widthFix" bindtap='showewm'> </image>
       <view>  还有二维码付费阅读扫描哦</view>
     </view>
-    <view>
-    <view><image src="/image/me.png" mode="widthFix"> </image></view> 
-    </view>
+
+    <view wx:if="{{ewm}}" class="ewm"><image src="/image/me.png" mode="widthFix"> </image></view> 
+
 </view>

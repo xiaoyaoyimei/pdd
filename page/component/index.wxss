@@ -48,7 +48,11 @@ swiper-item image {
   text-align: center
 }
 .newest image{
+    margin-top:20px;
   width:162px;
-
-
+}
+.ewm{
+  justify-content:center;
+  display: flex;
+  margin-top:20px;
 }
