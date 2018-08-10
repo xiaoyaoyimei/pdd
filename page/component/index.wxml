@@ -1,0 +1,40 @@
+<view class="main">
+    <swiper indicator-dots="true"  interval="{{interval}}" duration="{{duration}}" circular="true">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="100%"/>
+            </swiper-item>
+        </block>
+    </swiper>
+
+    <view class="selected">
+        <view class="select-title"><view>砍价互惠群</view>
+        <text>拼多多砍价互惠加本人微信。</text>
+        <text>本人只负责拉群。</text></view>
+
+        <view class="select-top">
+            <view class="select-top-small">
+                <navigator url="list/list">
+                    <image src="/image/p1.png"></image>
+                </navigator>
+            </view>
+            <view class="select-top-small">
+                <navigator url="list/list">
+                    <image src="/image/p2.png"></image>
+                </navigator>
+            </view>
+        </view>
+        <view class="select-bottom">
+            <navigator url="list/list">
+                <image src="/image/p3.png"></image>
+            </navigator>
+        </view>
+    </view>
+    <view class="newest">
+       <image src="/image/jx.png" mode="widthFix"> </image>
+      <view>  还有二维码付费阅读扫描哦</view>
+    </view>
+    <view>
+    <view><image src="/image/me.png" mode="widthFix"> </image></view> 
+    </view>
+</view>
