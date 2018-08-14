@@ -1,5 +1,5 @@
 page {
-  background-color: #fbf9fe;
+  /* background-color: #fbf9fe; */
   height: 100%;
 }
 .container {

@@ -1,4 +1,4 @@
-@import '../common/common.wxss';
+@import '../../common/common.wxss';
 .search{
     padding: 20rpx;
 }

@@ -12,26 +12,15 @@ Page({
     /**
      * 获取用户信息
      */
-    wx.getUserInfo({
-      success: function(res){
-        self.setData({
-          thumb: res.userInfo.avatarUrl,
-          nickname: res.userInfo.nickName
-        })
-      }
-    }),
+    // wx.getUserInfo({
+    //   success: function(res){
+    //     self.setData({
+    //       thumb: res.userInfo.avatarUrl,
+    //       nickname: res.userInfo.nickName
+    //     })
+    //   }
+    // })
 
-    /**
-     * 发起请求获取订单列表信息
-     */
-    wx.request({
-      url: 'http://www.gdfengshuo.com/api/wx/orders.txt',
-      success(res){
-        self.setData({
-          orders: res.data
-        })
-      }
-    })
   },
   onShow(){
     var self = this;
