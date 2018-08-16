@@ -36,6 +36,7 @@
   margin: 15rpx 0 0 0;
   border-top: solid 1px #ebebeb;
   border-bottom: solid 2px #ebebeb;
+  padding: 0 10px;
 }
 .my .my-item{
   width: 750rpx;
@@ -76,4 +77,8 @@ color:red;
 .nologin{
   justify-content: center;
   color: #0099ff;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
 }

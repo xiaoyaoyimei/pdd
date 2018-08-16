@@ -61,6 +61,15 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-  
+    return {
+      title: '装修找我,苏州禄东丰', // 分享标题
+      desc: 'O(∩_∩)O哈哈~', // 分享描述
+      path: '/pages/things/things' // 分享路径
+    }
+  },
+  call(){
+    wx.makePhoneCall({
+      phoneNumber: '13584830436' //仅为示例，并非真实的电话号码
+    })
   }
 })

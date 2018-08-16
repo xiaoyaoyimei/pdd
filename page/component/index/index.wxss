@@ -1,4 +1,10 @@
 @import '../../common/common.wxss';
+.tw100{
+  width: 100%
+}
+.main{
+  padding: 0 10px
+}
 .search{
     padding: 20rpx;
 }
@@ -29,21 +35,6 @@ swiper-item image {
     height: 80rpx;
     text-align: center;
 }
-.select-top-small{
-    width: 375rpx;
-    height: 375rpx;
-    float: left;
-}
-.select-bottom,.select-top{
-    width: 100%;
-    height: 375rpx;
-}
-.select-top-small image,.select-bottom image,.select-top-small navigator,.select-bottom navigator{
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
 .newest {
   text-align: center
 }

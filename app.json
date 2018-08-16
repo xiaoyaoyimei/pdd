@@ -8,14 +8,14 @@
   ],
   "window": {
     "navigationBarTextStyle": "#ffffff",
-    "navigationBarTitleText": "拼多多砍价群",
+    "navigationBarTitleText": "拼单砍价互惠群",
     "navigationBarBackgroundColor": "#f40208",
-    "backgroundColor": "#ff0000",
+    "backgroundColor": "#eeeeee",
     "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#b7b7b7",
-    "selectedColor": "#AB956D",
+    "selectedColor": "#d4237a",
     "borderStyle": "#f5f5f5",
     "backgroundColor": "#f5f5f5",
     "list": [{

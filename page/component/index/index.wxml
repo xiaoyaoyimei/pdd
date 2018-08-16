@@ -1,40 +1,23 @@
 <view class="main">
-    <swiper indicator-dots="true"  interval="{{interval}}" duration="{{duration}}" circular="true">
+    <!-- <swiper indicator-dots="true"  interval="{{interval}}" duration="{{duration}}" circular="true">
         <block wx:for="{{imgUrls}}" wx:key="{{index}}">
             <swiper-item>
                 <image src="{{item}}" class="slide-image" width="100%"/>
             </swiper-item>
         </block>
-    </swiper>
-
+    </swiper> -->
+<image src='/image/p3.png' mode='aspectFit' class="tw100"></image>
     <view class="selected">
         <view class="select-title"><view>砍价互惠群</view>
-        <text>拼多多砍价互惠加本人微信。</text>
+        <text>各种拼单，填字拿红包，享物说，步数说。砍价互惠，省钱专家会员福利加本人微信。</text>
         <text>本人只负责拉群。</text></view>
-
-        <view class="select-top">
-            <view class="select-top-small">
-                <navigator url="list/list">
-                    <image src="/image/p1.png"></image>
-                </navigator>
-            </view>
-            <view class="select-top-small">
-                <navigator url="list/list">
-                    <image src="/image/p2.png"></image>
-                </navigator>
-            </view>
-        </view>
-        <view class="select-bottom">
-            <navigator url="list/list">
-                <image src="/image/p3.png"></image>
-            </navigator>
-        </view>
     </view>
-    <view class="newest">
+    <!-- <view class="newest">
        <image src="/image/jx.png" mode="widthFix" bindtap='showewm'> </image>
       <view>  还有二维码付费阅读扫描哦</view>
-    </view>
-
-    <view wx:if="{{ewm}}" class="ewm"><image src="/image/me.png" mode="widthFix"> </image></view> 
+    </view> -->
+<image  src="/image/me.png" style="height:64px;width:64px;margin:20px auto;display:block"></image>
+<!-- <button bindtap='reader'> 识别二维码</button> -->
+    <view class="ewm">微信号 xiaoyaoyimei0717 (本人负责加号，加我备注：砍价互惠)</view> 
 
 </view>

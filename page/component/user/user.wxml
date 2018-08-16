@@ -6,24 +6,20 @@
     <view class="user-info flex-item">
         <open-data type="userNickName" class="userinfo-nickname"></open-data>
         <open-data type="userProvince" class="userinfo-nickname"></open-data>
-
+ <open-data type="userCity" class="userinfo-nickname"></open-data>
 
     </view>
     </view>
 
  <view class="my">
    <navigator url="../contactUs/contactUs" class="my-item flex-wrp" hover-class="navigator-hover">
-      <view class="myitem-icon flex-item">
-        <!-- <image src="../../images/phone.png"></image> -->
-      </view>
+
       <view class="myitem-name flex-item">
         <text>联系我们</text>
     </view>
     </navigator>
       <navigator url="../aboutUs/aboutUs" class="my-item flex-wrp" >
-      <view class="myitem-icon flex-item">
-        <!-- <image src="../../images/book.png"></image> -->
-      </view>
+
       <view class="myitem-name flex-item">
         <text>关于我们</text>
     </view>

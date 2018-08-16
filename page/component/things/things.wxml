@@ -1,2 +1,13 @@
 <!--page/component/things/things.wxml-->
-<text>因在其他地方要一块钱入群，故自己写个代码5毛入群。</text>
+<view class="things"><text class="f14">因在其他地方要一块钱入群，故自己写个代码5毛入群。</text>
+<view class="name">装修找苏州禄东丰装饰工程有限公司</view>
+<view class="zx-item">
+<text>装修热线:</text>13584830436<button bindtap="call" size='mini' type="primary">拨打电话</button></view>
+<view class="zx-item">
+<text>微信号:</text>caoyup19821020
+</view>
+<view class="zx-item"><text>地址:</text>中国江苏省苏州市吴中区木渎镇长江路9号9幢105室</view>
+
+<text class="f14">承接苏州，无锡，苏州周边各大装修。可以装修店铺，住宅，园林，会馆。请找苏州禄东丰装饰工程有限公司。请咨询</text>
+</view>
+

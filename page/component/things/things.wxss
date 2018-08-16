@@ -1,1 +1,20 @@
 /* page/component/things/things.wxss */
+.things {
+  padding: 0 10px;
+}
+.f14{
+  font-size: 14px;
+}
+.name{
+  text-align: center;
+  margin-top:10px;
+  margin-bottom: 10px;
+  color: #1aad19;
+}
+.zx-item {
+  margin: 10px 0;
+}
+.zx-item text{
+  width:100px;
+  display: inline-block;
+}
