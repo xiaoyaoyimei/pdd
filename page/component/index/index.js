@@ -42,7 +42,7 @@ Page({
     return {
       title: '砍价互惠加我,xiaoyaoyimei0717', // 分享标题
       desc: '备注：砍价互惠', // 分享描述
-      path: '/pages/index/index' // 分享路径
+      path: '/page/component/index/index' // 分享路径
     }
   },
 })

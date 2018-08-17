@@ -1,5 +1,5 @@
 <!--page/component/things/things.wxml-->
-<view class="things"><text class="f14">因在其他地方要一块钱入群，故自己写个代码5毛入群。</text>
+<view class="things"><text class="f14">其他信息互助。</text>
 <view class="name">装修找苏州禄东丰装饰工程有限公司</view>
 <view class="zx-item">
 <text>装修热线:</text>13584830436<button bindtap="call" size='mini' type="primary">拨打电话</button></view>

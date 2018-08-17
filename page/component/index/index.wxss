@@ -32,8 +32,7 @@ swiper-item image {
 .select-title,.newest-title{
     width: 100%;
     padding:30rpx 0;
-    height: 80rpx;
-    text-align: center;
+
 }
 .newest {
   text-align: center
