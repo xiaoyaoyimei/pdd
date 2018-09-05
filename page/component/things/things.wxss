@@ -10,11 +10,24 @@
   margin-top:10px;
   margin-bottom: 10px;
   color: #1aad19;
+  border-bottom: 1px solid #1aad19;
+  padding-bottom: 10px;
 }
 .zx-item {
   margin: 10px 0;
+  font-size: 14px;
 }
 .zx-item text{
-  width:100px;
   display: inline-block;
+  width:72px;
+}
+.call{
+left:10px;
+  position: relative;
+  top: 5px;
+}
+.f14{
+  margin-top: 20px;
+    border-top: 1px solid #1aad19;
+    padding-top:5px;
 }

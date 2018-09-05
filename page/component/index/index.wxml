@@ -1,24 +1,19 @@
 <view class="main">
-<text>加群信息互助</text>
-    <!-- <swiper indicator-dots="true"  interval="{{interval}}" duration="{{duration}}" circular="true">
-        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
-            <swiper-item>
-                <image src="{{item}}" class="slide-image" width="100%"/>
-            </swiper-item>
-        </block>
-    </swiper> -->
-<image src='/image/p3.png' mode='aspectFit' class="tw100"></image>
-    <view class="selected">
+<view class="head_title">加群信息互助</view>
+<!-- <image src='/image/p3.png' mode='aspectFit' class="tw100"></image> -->
         <view class="select-title"><view>分享砍价链接是不是怕骚扰了朋友圈的好友。没关系现在开始加入本群，本群由五湖四海人士构成。</view>
-        <text>各种拼单，填字拿红包，享物说，步数说。砍价互惠，省钱专家会员福利加本人微信。</text>
-        <text>本人只负责拉群。</text></view>
-    </view>
+       </view>
+<view class="service">
+<view class="service-item">
+<image src="/image/kf1.png" mode='widthFix'></image>
+<text>咨询服务</text><button type='primary' size='mini' bindtap="free">免费咨询</button></view>
+<view  class="service-item"><image src="/image/kf2.png" mode='widthFix'></image>
+<text>VIP</text><button type='primary' size='mini'>￥0.50</button></view></view>
     <!-- <view class="newest">
        <image src="/image/jx.png" mode="widthFix" bindtap='showewm'> </image>
       <view>  还有二维码付费阅读扫描哦</view>
     </view> -->
-<view><image  src="/image/me.png" style="height:64px;width:64px;margin:20px auto;display:block"></image></view>
-<!-- <button bindtap='reader'> 识别二维码</button> -->
-    <view class="ewm">微信号 xiaoyaoyimei0717 (本人负责加号，加我备注：砍价互惠)</view> 
 
+<!-- <button bindtap='reader'> 识别二维码</button> -->
+<!-- <button bindtap="testpay">测试支付</button> -->
 </view>

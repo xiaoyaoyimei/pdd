@@ -1,4 +1,14 @@
 @import '../../common/common.wxss';
+
+page{
+  background: #f9f9f9
+}
+.head_title{
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #ddd;
+  text-align: center
+}
 .tw100{
   width: 100%
 }
@@ -45,4 +55,24 @@ swiper-item image {
   justify-content:center;
   display: flex;
   margin-top:20px;
+}
+.service{
+  background: #fff;
+  box-sizing: border-box;
+}
+.service-item{
+   box-sizing: border-box;
+  width:50%;
+  display: inline-block;
+  text-align: center;
+}
+.service-item image{
+  width: 100%;
+}
+.service-item:nth-child(2n+1){
+ border-right: solid 10rpx #f9f9f9;
+}
+.service-item text{
+  display: block;
+  margin-bottom:10px;
 }

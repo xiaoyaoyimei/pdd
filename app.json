@@ -9,7 +9,7 @@
   "window": {
     "navigationBarTextStyle": "#ffffff",
     "navigationBarTitleText": "砍价互惠信息加群",
-    "navigationBarBackgroundColor": "#f40208",
+    "navigationBarBackgroundColor": "#d4237a",
     "backgroundColor": "#eeeeee",
     "enablePullDownRefresh": true
   },
@@ -27,7 +27,7 @@
       "pagePath": "page/component/things/things",
       "iconPath": "image/32.png",
       "selectedIconPath": "image/31.png",
-      "text": "其他事项"
+      "text": "装修"
     }, {
       "pagePath": "page/component/user/user",
       "iconPath": "image/42.png",
